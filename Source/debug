@@ -1,0 +1,582 @@
+/home/fuxiang/trade/Runnable/../Data/Test/eTrade.20131021.log
+/home/fuxiang/trade/Runnable/../Data/Test/eTrade.20131023.log
+/home/fuxiang/trade/Runnable/../Data/Test/eTrade.20131025.log
+/home/fuxiang/trade/Runnable/../Data/Test/eTrade.20131022.log
+/home/fuxiang/trade/Runnable/../Data/Test/eTrade.20131024.log
+{'2013-10-25': ['USBond40', 'USBond50', 'USBond60', 'USBond20', 'USBond30', 'HKBond30'], '2013-10-24': ['USBond50', 'USBond40', 'USBond60', 'USBond30', 'USBond20', 'HKBond30'], '2013-10-21': ['USBond60', 'USBond40', 'USBond50', 'USBond30', 'USBond20', 'HKBond30'], '2013-10-23': ['USBond60', 'USBond40', 'USBond50', 'USBond20', 'USBond30', 'HKBond30'], '2013-10-22': ['USBond50', 'USBond60', 'USBond40', 'USBond30', 'USBond20', 'HKBond30']}
+/home/fuxiang/trade/Runnable/../Result/Q1.csv {'2013-10-25': ['USBond40', 'USBond50', 'USBond60', 'USBond20', 'USBond30', 'HKBond30'], '2013-10-24': ['USBond50', 'USBond40', 'USBond60', 'USBond30', 'USBond20', 'HKBond30'], '2013-10-21': ['USBond60', 'USBond40', 'USBond50', 'USBond30', 'USBond20', 'HKBond30'], '2013-10-23': ['USBond60', 'USBond40', 'USBond50', 'USBond20', 'USBond30', 'HKBond30'], '2013-10-22': ['USBond50', 'USBond60', 'USBond40', 'USBond30', 'USBond20', 'HKBond30']}
+/home/fuxiang/trade/Runnable/../Data/Test/eTrade.20131021.log
+/home/fuxiang/trade/Runnable/../Data/Test/eTrade.20131023.log
+/home/fuxiang/trade/Runnable/../Data/Test/eTrade.20131025.log
+/home/fuxiang/trade/Runnable/../Data/Test/eTrade.20131022.log
+/home/fuxiang/trade/Runnable/../Data/Test/eTrade.20131024.log
+[43 15  0 15 15 15 15 15 20  1 15  2 43 24 20 15  3 48 15 20  4 15 43 15 43
+ 20 20 51 57 15 22  5 52 15  6 15 15 15  7 15 15 15 15 20  8 15 15 15 15  9
+  3 15 20 15 15 15 20 20 15 15 15 43 15 20 15 15 45 46 20 15 10 15 15 52 15
+ 15 15 11 12 15 20 20 13 20 15 15 14 15 43 15 15 45 22 15 20 20 57 15 16 15
+ 15 15 17 18 22 46 20 15 19 15 20 21 15 15 15 22 15 15 15 20 15 23 15 15 20
+ 24 15 20 15 52 20 15 48 20 24 25 20 56 15 15 15 24 15 24 26 27 15 15 28 29
+ 20 30 20 31 20 15 26 15 58 20 32 52 33 15 15 20 43 15 39 15 34 35 36 15 51
+ 22 37 20 15 15 15 57 45 15 15 20 15 20 38 22 39 15 26 15 15 40 15 41 20 42
+ 15 15 15 43 43 44 15 15 15 15 15 45 46 20 15 48 15 20 15 47 22 15 20 48 49
+ 15 50 15 20 39 15 20 51 20 15 15 20 20  3 15 15 52 15 15 15 43 15 53 15 15
+ 15 48 20 54 15 15 15 15 22 15 15 15 15 55 15 15 15 15 15 20 15 15 56 58 57
+ 15 15 15 58]
+43
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+0
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+1
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+2
+<type 'numpy.int32'>
+43
+<type 'numpy.int32'>
+24
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+3
+<type 'numpy.int32'>
+48
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+4
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+43
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+43
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+51
+<type 'numpy.int32'>
+57
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+22
+<type 'numpy.int32'>
+5
+<type 'numpy.int32'>
+52
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+6
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+7
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+8
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+9
+<type 'numpy.int32'>
+3
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+43
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+45
+<type 'numpy.int32'>
+46
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+10
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+52
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+11
+<type 'numpy.int32'>
+12
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+13
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+14
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+43
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+45
+<type 'numpy.int32'>
+22
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+57
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+16
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+17
+<type 'numpy.int32'>
+18
+<type 'numpy.int32'>
+22
+<type 'numpy.int32'>
+46
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+19
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+21
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+22
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+23
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+24
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+52
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+48
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+24
+<type 'numpy.int32'>
+25
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+56
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+24
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+24
+<type 'numpy.int32'>
+26
+<type 'numpy.int32'>
+27
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+28
+<type 'numpy.int32'>
+29
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+30
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+31
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+26
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+58
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+32
+<type 'numpy.int32'>
+52
+<type 'numpy.int32'>
+33
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+43
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+39
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+34
+<type 'numpy.int32'>
+35
+<type 'numpy.int32'>
+36
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+51
+<type 'numpy.int32'>
+22
+<type 'numpy.int32'>
+37
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+57
+<type 'numpy.int32'>
+45
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+38
+<type 'numpy.int32'>
+22
+<type 'numpy.int32'>
+39
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+26
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+40
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+41
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+42
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+43
+<type 'numpy.int32'>
+43
+<type 'numpy.int32'>
+44
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+45
+<type 'numpy.int32'>
+46
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+48
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+47
+<type 'numpy.int32'>
+22
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+48
+<type 'numpy.int32'>
+49
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+50
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+39
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+51
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+3
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+52
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+43
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+53
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+48
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+54
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+22
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+55
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+20
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+56
+<type 'numpy.int32'>
+58
+<type 'numpy.int32'>
+57
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+15
+<type 'numpy.int32'>
+58
+<type 'numpy.int32'>
