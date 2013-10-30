@@ -4,10 +4,11 @@
 import json 
 import re 
 import os
-
+import argparse 
 from sklearn.cluster import AffinityPropagation
 from sklearn import metrics
 import numpy as np
+
 
 from utils import strip_str_head_tail, str_to_datetime, get_date_str_from_file_name 
 from csv_write import write_question_one, write_question_two, write_question_three 
@@ -96,6 +97,7 @@ class Trade(object):
             zero_time_str = line_list[0]
             dt = str_to_datetime(time_str)
             
+            #print dt
             len_list = len(line_list)
             if len(line_list) > 5 :
                 if line_list[4] == "Request" :
@@ -120,13 +122,23 @@ class Trade(object):
                     request_str = strip_str_head_tail( line_list[5] )
                     if request_str  in self._order_dict :
                         self._order_dict[request_str].append(dt) 
+        
 
+        for k,v in self._order_dict.iteritems():
+            if len(v) != 2 : continue
+            t = (v[1] - v[0]).seconds
+            if t >= 1: 
+                print k,(v[1] -v[0]).seconds 
         
         self._bad_time = []
         zero_dt = str_to_datetime( zero_time_str[1:] + ' ' + '0:0:0')
 
         #得到了order起始时间
         bad_time_dict = {}
+        bad_time_count_dict = {}
+        
+
+
         for order in self._order_dict :
             order_list = self._order_dict[order]
             if len(order_list) != 2 : continue 
@@ -135,13 +147,21 @@ class Trade(object):
             end_time = order_list[1]
             dt = end_time - start_time
             #print dt.seconds
-            if dt.seconds > 1 : 
+            if dt.seconds >= 1 : 
                 #self._bad_time.append(start_time)
 
                 #start_time = str(start_time)
                 start_pos = (start_time - zero_dt ).seconds 
                 end_pos = (end_time - zero_dt ).seconds
-
+                
+                """
+                if start_time not in bad_time_count_dict :
+                    bad_time_count_dict[start_time] = 0
+                """
+                if start_pos not in bad_time_count_dict :
+                    bad_time_count_dict[start_pos] = 0
+                #print start_time 
+                bad_time_count_dict[start_pos] += 1
                 """
                 if start_pos not in bad_time_dict  :
                     bad_time_dict [start_pos]  = end_pos
@@ -157,6 +177,14 @@ class Trade(object):
                 #step = (start_time - zero_dt ).seconds 
                 #self._bad_time_dict[step] = self._bad_time_dict.get(step ,0) + 1
         #print self._bad_time
+        
+        #for each in bad_time_count_dict :
+
+        l = sorted(bad_time_count_dict.items() ,key = lambda bad_time_count_dict:bad_time_count_dict[0]) 
+        for each in l:
+            print each[0] ,each[1] 
+        print "-------------------------"
+
         l = sorted(bad_time_dict.items(), lambda x, y: cmp(x[1], y[1]))
         
         bad_time_list = []
@@ -195,6 +223,9 @@ class Trade(object):
             file_path = os.path.join(self._path , file_name)
             print file_path 
             self.handle_two(file_path)
+
+            #debug 
+            break
         #self.bad_time_analyze()
 
     def work_three(self):
@@ -227,11 +258,19 @@ class Trade(object):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-t",dest = 'test',help="increase output verbosity",nargs = '?') 
+    args = parser.parse_args()
+
+
+
     root_path = os.environ['CODEHOME']
-    #test = Trade(root_path+'/Data/Prod')
-    test = Trade(root_path+'/Data/Test')
-    test.work_one()
-    #test.work_two()
+    if args.test:
+        test = Trade(root_path+'/Data/Test')
+    else :
+        test = Trade(root_path+'/Data/Prod')
+    #test.work_one()
+    test.work_two()
     #test.work_three()
 if __name__ == '__main__':
     main()
