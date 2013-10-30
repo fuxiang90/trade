@@ -9,7 +9,6 @@ from sklearn.cluster import AffinityPropagation
 from sklearn import metrics
 import numpy as np
 
-
 from utils import strip_str_head_tail, str_to_datetime, get_date_str_from_file_name 
 from csv_write import write_question_one, write_question_two, write_question_three 
 class Trade(object):
